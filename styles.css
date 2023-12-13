@@ -38,13 +38,13 @@ div a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-size: large;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    font-size: large;
 }
 
 nav ul li a::before {
@@ -66,6 +66,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background-color: #f4f4f4;
     color: #333;
 }
