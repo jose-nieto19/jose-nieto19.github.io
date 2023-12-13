@@ -6,16 +6,18 @@
     box-sizing: border-box;
 }
 
-img {
-    width: 120px;
-    height: 50px;
-    float: left;
-    padding: 8px;
-}
-
 .menu {
     width: 900px;
     margin: 0 auto;
+}
+
+.iconoMenu {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left
 }
 
 nav {
@@ -26,20 +28,20 @@ nav ul li {
     list-style: none;
     margin-left: 75px;
     padding: 12px 0;
-    float: left;
+    float: right;
     position: relative;
 }
 
 div a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-weight: bold;
     font-size: large;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -47,7 +49,7 @@ nav ul li a::before {
     display: block;
     content: '';
     width: 0%;
-    background-color: #444;
+    background-color: #fff;
     height: 5px;
     top: 0;
     position: absolute;
@@ -67,7 +69,7 @@ body {
 }
 
 header {
-    background-color: #33FF3F;
+    background-color: #108717;
     width: 100%;
     clear: both;
     content: '';
