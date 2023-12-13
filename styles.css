@@ -9,7 +9,10 @@
 
 .menu {
     width: 900px;
+    top: 0;
+    width: 100%;
     margin: 0 auto;
+    position: fixed;
 }
 
 .iconoMenu {
