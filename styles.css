@@ -16,7 +16,7 @@
     color: #fff;
     font-weight: bold;
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Kalnia', serif;
     float: left;
     padding: 8px;
 }
@@ -63,7 +63,7 @@ nav ul li a:hover::before {
 }
 
 body {
-    font-family: 'Kalnia', Roboto ,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -83,10 +83,12 @@ header {
 
 section {
     margin: 20px;
+    font-family: 'Afacad', sans-serif;
 }
 
 h1, h2 {
     color: #108717;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -99,6 +101,7 @@ a:hover {
 }
 
 footer {
+    font-family: 'Afacad', sans-serif;
     background-color: #108717;
     color: #fff;
     text-align: center;
