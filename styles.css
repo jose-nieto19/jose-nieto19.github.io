@@ -5,6 +5,19 @@
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #108717;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #108718be;    
+}
+
 .menu {
     width: 900px;
     width: 100%;
@@ -25,10 +38,8 @@
     margin-left: 25px;
 }
 
-.parrafoMenu {
-    text-align: center;
-    display: block;
-    font-size: larger;
+.iconoMenu:hover {
+    cursor: pointer;
 }
 
 nav {
@@ -71,6 +82,7 @@ nav ul li a::before {
 
 nav ul li a:hover::before {
     width: 100%;
+    cursor: pointer;
 }
 
 body {
@@ -78,8 +90,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
-    color: #333;
+    background-image: url('docsUsed/background.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño de la ventana */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    overflow-x: hidden;
 }
 
 header {
@@ -99,17 +114,68 @@ header {
 .sobreMi {
     padding: 20px;
     margin-top: 100px;
+    width: 100%;
 }
+
+.divSobreMi {
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.divTxt {
+    text-align: center;
+}
+
+.imgSobreMi {
+    width: 20%;
+    height: 20%;
+    margin-left: 25px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.pSobreMi {
+    font-size: large;
+    text-align: left;
+}
+
+.pSobreMi, .imgSobreMi {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.btnCV {
+    font-family: 'Afacad', sans-serif;
+    padding: 7.5px 15px;
+    background-color: #108717;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    margin-top: 5%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btnCV:hover {
+    background-color: #0e6e15;
+    transform: scale(1.1);
+}
+
 
 section {
     margin: 20px;
     font-family: 'Afacad', sans-serif;
 }
 
-h1, h2 {
+h1{
     color: #108717;
     font-family: 'Roboto', sans-serif;
-    
+    font-size: xx-large;
+    font-weight: bold;    
+    text-shadow: 2px 2px 4px #bbbaba; /* Añade sombra al texto */
+
 }
 
 a {
