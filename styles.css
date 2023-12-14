@@ -1,5 +1,6 @@
 *{ 
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar{
@@ -15,11 +16,11 @@
     background-color: #2B3035;    
 }
 
+
 h1{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: bold;  
-    margin-bottom: 5%;  
     margin-top: 15%;
     margin-bottom: 5%; 
     text-align: center;
@@ -33,4 +34,20 @@ h1{
 
 .sobreMi {
     text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #2B3035;
+}
+
+.footer h1{
+    margin-top: 10%;
+    color: #A1C1CC;;
+    font-size: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #A1C1CC;;
 }
