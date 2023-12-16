@@ -3,6 +3,7 @@ function mostrarContenido() {
     var contenido1 = document.getElementById("contenido1");
     var contenido2 = document.getElementById("contenido2");
     var contenido3 = document.getElementById("contenido3");
+        
 
     // Muestra el contenido correspondiente a la opción seleccionada
     if (opcion === "1") {
