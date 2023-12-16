@@ -15,24 +15,32 @@
     background-color: #2B3035;    
 }
 
-
 h1{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: bold;  
-    margin-top: 15%;
     margin-bottom: 5%; 
     text-align: center;
 }
 
+.presentacion{
+    margin-top: 15%;
+}
+
 .text {
     font-family: 'Afacad', sans-serif;
+    text-align: left;
     font-size: 25px;
-    text-align: justify;
+}
+
+.center{
+    text-align: center;
 }
 
 .sobreMi {
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .footer {
@@ -41,12 +49,19 @@ h1{
 }
 
 .footer h1{
-    margin-top: 10%;
-    color: #A1C1CC;;
-    font-size: 30px;
+    margin-top: 5%;
+    color: #fff;
+    font-size: 25px;
 }
 
 .footer a{
     text-decoration: none;
-    color: #A1C1CC;;
+    color: #fff;
+    margin: 5%;
+    margin-top: 0%;
+    transition: color 0.5s;
+}
+
+.footer a:hover{
+    color: lightgray;
 }
