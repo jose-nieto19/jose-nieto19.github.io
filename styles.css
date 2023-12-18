@@ -62,7 +62,8 @@ h1{
     align-items: center;
     background-color: lightgray; 
     border-radius: 2%;
-    margin-top: 2%; 
+    margin-top: 2%;
+    margin-bottom: 5%; 
 }
 
 .contenidoNoSeleccionado{
@@ -73,6 +74,7 @@ h1{
     background-color: lightgray; 
     border-radius: 2%; 
     margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .contenido{
@@ -83,7 +85,7 @@ h1{
     flex-direction: column;
     border-radius: 2%;
     background-color: whitesmoke;
-    margin: 2%;
+    margin: 5%;
 }
 
 .nombreIcono{
