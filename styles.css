@@ -38,6 +38,28 @@ h1{
     font-size: 25px;
 }
 
+.iconoPrincipal{
+    font-family: 'Kalnia', serif;
+    font-weight: bold;
+}
+
+.jcRight{
+    justify-content: right;
+}
+
+.linkMenu{
+    font-family: 'Roboto', sans-serif;
+}
+
+.inicio{
+    margin-top: 75px;
+    padding-top: 3%;
+}
+
+.imgPrincipal{
+    border-radius: 25%;
+}
+
 .linkContacto{
     font-size: 20px;
 }
