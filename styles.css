@@ -77,6 +77,12 @@ h1{
     margin-bottom: 5%;
 }
 
+.colContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contenido{
     width: 200px;
     display: flex;
@@ -85,7 +91,8 @@ h1{
     flex-direction: column;
     border-radius: 2%;
     background-color: whitesmoke;
-    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .nombreIcono{
