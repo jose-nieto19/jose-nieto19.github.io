@@ -1,5 +1,6 @@
 *{ 
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar{
@@ -22,10 +23,6 @@ h1{
     margin-bottom: 5%; 
     text-align: center;
     text-decoration: underline;
-}
-
-.textLeft{
-    text-align: left;
 }
 
 .margin5{
