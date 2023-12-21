@@ -71,7 +71,7 @@ h2{
 .inicio{
     padding-top: 5%;
     padding-bottom: 5%;
-    background-image: url('docsUsed/background.jpg');
+    background-image: url('docsUsed/background.webp');
     background-size: cover;
     background-position: center;
     border-bottom: 3px solid #000; /* 1px de ancho, sólido y de color negro */
